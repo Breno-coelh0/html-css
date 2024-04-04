@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Manrope:wght@200..800&display=swap');
+
+@font-face {
+    font-family: 'barbie';
+    src: url('fonte/Barbie.otf');
+}
+
+@font-face {
+    font-family: 'love';
+    src: url('fonte/Love.otf');
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+:root {
+    --font-destaque: 'barbie', times, serif;
+    --font-padrao: "Manrope", sans-serif;
+    --font-titulo: 'love', sans-serif;
+    --font-desenho: "Fredericka the Great", serif;
+
+    --cor0: #ffd8ef;
+    --cor1: #88ddff;
+    --cor2: #FF8CCF;
+    --cor3: #F31EA8;
+    --cor4: #f90068;
+
+}
+
+body {
+    font-family: var(--font-padrao);
+    background-color: var(--cor1);
+
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+}
+
+header > h1 {
+    font-family: var(--font-destaque);
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.409);
+
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.481);
+
+}
+
+nav {
+    background-color: var(--cor4);
+}
+
+nav > a {
+    color: var(--cor0);
+    text-decoration: none;
+    padding: 5px 10px 0px 10px;
+    transition-duration: 0.5s;
+    border-radius: 3px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.344);
+
+    
+}
+
+nav > a:hover {
+    background-color: var(--cor0);
+    color: var(--cor4);
+   
+}
+
+
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    min-width: 350px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+article > h1 {
+    font-family: var(--font-titulo);
+    padding: 10px;
+    color: var(--cor3);
+    font-size: 2em;
+
+}
+
+article > h2 {
+    font-family: var(--font-titulo);
+    padding: 10px;
+    color: var(--cor3);
+    
+}
+
+h2 > a {
+    color: var(--cor3);
+    text-decoration: none;
+}
+
+h2 > a:hover {
+    color: var(--cor4);
+}
+
+article > p {
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 1.5em;
+    padding: 0px 10px; 
+    text-indent: 30px;
+}
+
+.desenho {
+    text-align: center;
+    font-size: 2em;
+}
+
+article > h3 {
+    text-align: center;
+    color: var(--cor2);
+    font-family: var(--font-desenho);
+    margin: 15px;
+
+}
+
+h3 > a {
+    color: var(--cor2);
+    text-decoration: none;
+}
+
+h3 > a:hover {
+    color: var(--cor4);
+}
+
+article > img {
+    display: block;
+    margin: auto;
+    padding: 25px;
+    
+}
+
+picture img {
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+#sobremim a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+
+#sobremim a:hover {
+    text-decoration: underline;
+}
+
+#sobremim p {
+    text-align: center;
+}
+abbr {
+    text-decoration: none;
+}
+
+#sobremim ul {
+    list-style-position: inside;
+    padding: 10px;
+    columns: 2;
+}
+
+#sobremim ol {
+    text-indent: 20px;
+    padding: 5px;
+}
+
