@@ -105,6 +105,7 @@ article > h2 {
     font-family: var(--font-titulo);
     padding: 10px;
     color: var(--cor3);
+    padding-bottom: 40px;
     
 }
 
@@ -135,7 +136,6 @@ article > h3 {
     color: var(--cor2);
     font-family: var(--font-desenho);
     margin: 15px;
-
 }
 
 h3 > a {
@@ -147,17 +147,16 @@ h3 > a:hover {
     color: var(--cor4);
 }
 
-article > img {
-    display: block;
-    margin: auto;
-    padding: 25px;
-    
+.container-realismo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
-picture img {
-    display: block;
-    margin: auto;
-    padding: 25px;
+.container-realismo .desenho-realista {
+    max-width: 500px;
+    max-height: 500px;
 }
 
 #sobremim a {
