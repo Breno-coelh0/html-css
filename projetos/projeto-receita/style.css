@@ -10,7 +10,6 @@
     src: url(fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 
-
 :root {
     --fonte-titulo: 'young', serif;
     --fonte-padrao: 'outfit', sans-serif;
@@ -21,10 +20,6 @@
 
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
 
 body {
     font-family: var(--fonte-padrao);
@@ -56,12 +51,13 @@ strong {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 main > h1 {
     font-family: var(--fonte-titulo);
     padding: 10px;
+    padding-top: 20px;
     text-indent: 20px;
     word-spacing: 2px;
 }
