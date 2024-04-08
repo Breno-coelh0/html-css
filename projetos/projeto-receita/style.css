@@ -43,6 +43,7 @@ main {
     margin-bottom: 200px;
     border-radius: 20px;
     padding: 30px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.27);
 }
 
 strong {
@@ -98,6 +99,10 @@ main ol {
     padding-left: 10px;
 }
 
+main li::marker {
+    color: var(--cor2);
+}
+
 .ingredientes {
     width: 89%;
     margin: auto;
@@ -141,48 +146,16 @@ main ol {
 
 .nutricional > p {
     padding-bottom: 20px;
-    text-align: center;
 }
 
-.calorias {
-    display: flex;
-    box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.108);
+.nutricional table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutricional th, .nutricional td {
     padding: 10px;
-    justify-content:space-around;
-    width: 60%;
-    margin:auto;
-
+    text-align: left;
+    border-bottom: 1px solid #ccc;
 }
-
-.carbs {
-    display: flex;
-    box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.108);
-    padding: 10px;
-    justify-content:space-around;
-    width: 60%;
-    margin:auto;
-}
-
-.proteina {
-    display: flex;
-    box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.108);
-    padding: 10px;
-    justify-content:space-around;
-    width: 60%;
-    margin:auto;
-}
-
-.fat {
-    display: flex;
-    padding: 10px;
-    justify-content:space-around;
-    width: 60%;
-    margin:auto;
-}
-
-.numeros {
-    color: var(--cor2);
-    font-weight: 700;
-}
-
 
