@@ -38,11 +38,11 @@ body {
 main {
     background-color: white;
     max-width: 900px;
-    min-width: 350px;
     margin: auto;
     margin-top: 200px;
     margin-bottom: 200px;
     border-radius: 20px;
+    padding: 30px;
 }
 
 strong {
@@ -52,7 +52,9 @@ strong {
 .imagem  img {
     margin: auto;
     display: block;
-    padding: 30px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 40px;
 }
 
