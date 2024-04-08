@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'young';
+    src: url(fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'outfit';
+    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+
+:root {
+    --fonte-titulo: 'young', serif;
+    --fonte-padrao: 'outfit', sans-serif;
+
+    --cor1: hsl(332, 51%, 32%);
+    --cor2: hsl(14, 45%, 36%);
+    --cor3: hsl(30, 54%, 90%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    color: black;
+    background-color:#F3E5D8 ;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+main {
+    background-color: white;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 200px;
+    
+}
+
+strong {
+    font-weight: 600;
+}
+
+main  img {
+    margin: auto;
+    display: block;
+    padding: 30px;
+}
+
+main > h1 {
+    font-family: var(--fonte-titulo);
+    padding: 10px;
+    text-indent: 20px;
+}
+
+main > p {
+    padding: 20px;
+    text-indent: 20px;
+}
+
+.tempo {
+    background-color: var(--cor3) ;
+    margin: auto;
+    padding: 20px;
+    width: 85%;
+    border-radius: 8px;
+}
+
+.tempo > h2 {
+    color: var(--cor1);
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    
+}
+
+main ul {
+    list-style-position: inside;
+    line-height: 2em;
+    padding-left: 10px;
+    
+}
+
+main ol {
+    list-style-position: inside;
+    line-height: 2em;
+    padding-left: 10px;
+}
+
+.ingredientes {
+    width: 89%;
+    margin: auto;
+    padding: 20px;
+    box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.108);
+}
+
+.ingredientes > h2 {
+    color: var(--cor2);
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.instrucoes > h2 {
+    color: var(--cor2);
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.instrucoes {
+    width: 89%;
+    margin: auto;
+    padding: 20px;
+    box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.108);
+}
+
+.nutricional > h2 {
+    color: var(--cor2);
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.nutricional {
+    width: 89%;
+    margin: auto;
+    padding: 20px;
+}
+
+.calorias {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numeros {
+    color: var(--cor2);
+    font-weight: 700;
+}
+
+
