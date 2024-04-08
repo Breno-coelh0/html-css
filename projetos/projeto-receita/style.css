@@ -38,19 +38,22 @@ body {
 main {
     background-color: white;
     max-width: 900px;
+    min-width: 350px;
     margin: auto;
     margin-top: 200px;
-    
+    margin-bottom: 200px;
+    border-radius: 20px;
 }
 
 strong {
     font-weight: 600;
 }
 
-main  img {
+.imagem  img {
     margin: auto;
     display: block;
     padding: 30px;
+    border-radius: 40px;
 }
 
 main > h1 {
@@ -133,9 +136,45 @@ main ol {
     padding: 20px;
 }
 
+.nutricional > p {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
 .calorias {
     display: flex;
-    justify-content: space-between;
+    box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.108);
+    padding: 10px;
+    justify-content:space-around;
+    width: 60%;
+    margin:auto;
+
+}
+
+.carbs {
+    display: flex;
+    box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.108);
+    padding: 10px;
+    justify-content:space-around;
+    width: 60%;
+    margin:auto;
+}
+
+.proteina {
+    display: flex;
+    box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.108);
+    padding: 10px;
+    justify-content:space-around;
+    width: 60%;
+    margin:auto;
+}
+
+.fat {
+    display: flex;
+    padding: 10px;
+    justify-content:space-around;
+    width: 60%;
+    margin:auto;
 }
 
 .numeros {
